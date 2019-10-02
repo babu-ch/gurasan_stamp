@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+<title>GURASAN TUKERU YATU</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<link rel="icon" type="image/png" sizes="32x32" href="data:image/png;base64,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">
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            max-height: 100%;
+            overflow: hidden;
+            font-size: 13px;
+        }
+        body {
+            padding: 0 10px;
+        }
+        #app {
+            margin: 10px auto 0 auto;
+            max-width: 400px;
+            height: 100%;
+            min-height: 100%;
+        }
+        #imageArea {
+            position: relative;
+            border: 1px solid #CCC;
+            border-radius: 5px;
+            height: 50%;
+        }
+        .controlTable {
+            display: table;
+            width: 100%;
+        }
+        .controlTable > div {
+            display: table-cell;
+        }
+        .controlTable > div:first-child {
+            width: 35%;
+        }
+        .controlTable > div:last-child {
+            width: 65%;
+        }
+        input {
+            width: 100%;
+        }
+        [v-cloak] {
+            display: none;
+        }
+        #mainImage {
+            max-width: 100%;
+            max-height: 100%;
+            display: block;
+            margin: auto;
+        }
+        #gurasan {
+            position: absolute;
+        }
+        h4 {
+            margin: 5px 0;
+        }
+        .iconSelect {
+            display: table;
+            height: 30px;
+        }
+        .iconSelect > div {
+            display: table-cell;
+        }
+        .iconSelect img {
+            width: 30px;
+            height: 30px;
+            margin-left: 20px;
+        }
+        h4 {
+            border-bottom: 1px dotted #CCCCCC;
+        }
+    </style>
+</head>
+<body>
+<div id="app" v-cloak>
+    <div id="imageArea">
+        <img :src="gurasanSrc"
+             alt=""
+             id="gurasan"
+             draggable="false"
+             @touchstart="dragStart"
+             @touchend="dragEnd"
+             @mousedown="dragStart"
+             @mouseup="dragEnd"
+             :style="gurasanStyle"
+        >
+        <img :src="imgSrc" alt="" v-if="imgSrc" id="mainImage" draggable="false">
+    </div>
+    <div id="controlArea">
+        <div class="controlTable">
+            <div>
+                <label>おおきさ({{size}}):</label>
+            </div>
+            <div>
+                <input type="range" name="size" min="1" max="300" v-model="size">
+            </div>
+        </div>
+        <div class="controlTable">
+            <div>
+                <label>かたむき({{degree}}):</label>
+            </div>
+            <div>
+                <input type="range" name="degree" min="1" max="360" v-model="degree">
+            </div>
+        </div>
+    </div>
+    <div>
+        <h4>あいこんをえらべるよ</h4>
+        <div class="iconSelect">
+            <div><img src="gurasan.svg" alt="" @click="gurasanSrc = 'gurasan.svg'"></div>
+            <div><img src="santa.svg" alt="" @click="gurasanSrc = 'santa.svg'"></div>
+        </div>
+    </div>
+    <div id="fileArea">
+        <h4>がぞうをアップロードしよう</h4>
+        <input type="file" value="upload" @change="fileChange" accept=".jpg,.gif,.png,image/gif,image/jpeg,image/png">
+    </div>
+    <div>
+        <h4>Generate!</h4>
+        <input type="button" value="これでOK！" @click="generate">
+    </div>
+</div>
+</body>
+<script>
+    const app = new Vue({
+        data: {
+            gurasanSrc: 'gurasan.svg',
+            size: 30,
+            degree: 0,
+            imgSrc: null,
+            gurasanX: 10,
+            gurasanY: 10,
+        },
+        methods: {
+            // ファイル読み込み
+            fileChange(e) {
+                const file = e.target.files[0]
+                if (!file) {
+                    return
+                }
+                const reader = new FileReader();
+                reader.onload = () => {
+                    this.imgSrc = reader.result
+                }
+                reader.readAsDataURL(file)
+            },
+            // ドラッグ開始
+            dragStart() {
+                document.addEventListener('touchmove', this.drag)
+                document.addEventListener('mousemove', this.drag)
+            },
+            // ドラッグ中
+            drag(e) {
+                if (e.type === 'mousemove') {
+                    const imageArea = document.getElementById('imageArea')
+                    const domRect = imageArea.getBoundingClientRect()
+                    this.gurasanY = (e.pageY - domRect.top) - (this.size / 2);
+                    this.gurasanX = (e.pageX - domRect.left) - (this.size / 2)
+                } else {
+                    const touchObject = e.changedTouches[0]
+                    this.gurasanY = touchObject.clientY - (this.size / 2);
+                    this.gurasanX = touchObject.clientX - (this.size / 2)
+                }
+            },
+            // ドラッグおわり
+            dragEnd() {
+                document.removeEventListener('touchmove', this.drag)
+                document.removeEventListener('mousemove', this.drag)
+            },
+            // 画像出力
+            generate() {
+                if (!this.imgSrc) {
+                    return
+                }
+                const canvas = document.createElement('canvas');
+                const width = document.getElementById('imageArea').clientWidth
+                const height = document.getElementById('imageArea').clientHeight
+                canvas.width = width
+                canvas.height = height
+                const ctx = canvas.getContext('2d')
+                const mainImageElement = document.getElementById('mainImage')
+                ctx.drawImage(
+                    mainImageElement,
+                    mainImageElement.offsetLeft,
+                    0,
+                    mainImageElement.clientWidth,
+                    mainImageElement.clientHeight
+                )
+                const gurasanElement = document.getElementById('gurasan')
+                const gurasanLeft = gurasanElement.offsetLeft
+                const gurasanTop = gurasanElement.offsetTop
+
+                // 回転させるとき
+                if (this.degree !== 0) {
+                    const translateX = gurasanLeft + (this.size / 2)
+                    const translateY = gurasanTop + (this.size / 2)
+                    ctx.translate(translateX, translateY);
+                    ctx.rotate((this.degree * Math.PI) / 180)
+                    ctx.translate(-translateX, -translateY);
+                }
+                ctx.drawImage(
+                    gurasanElement,
+                    gurasanLeft,
+                    gurasanTop,
+                    this.size,
+                    this.size
+                )
+
+                // 出力
+                // 投げやりなコード
+                document.body.innerText = ''
+                const dataUrl = canvas.toDataURL()
+                const i = document.createElement('img')
+                i.src = dataUrl
+                document.body.prepend(i)
+                const btn = document.createElement('button')
+                btn.textContent = 'やりなおす'
+                btn.onclick = () => {location.reload()}
+                document.body.append(btn)
+            }
+        },
+        computed: {
+            gurasanStyle() {
+                return {
+                    top: this.gurasanY + 'px',
+                    left: this.gurasanX + 'px',
+                    width: this.size + 'px',
+                    transform: 'rotate(' + this.degree + 'deg)'
+                }
+            }
+        }
+    });
+    app.$mount('#app');
+</script>
+</html>
